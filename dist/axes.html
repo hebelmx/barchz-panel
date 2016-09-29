@@ -1,0 +1,29 @@
+<div class="editor-row">
+
+	<div class="section gf-form-group">
+		<h5 class="section-heading">Y-Axis</h5>
+		<div class="section gf-form-group">
+
+			<gf-form-switch class="gf-form" label="Show" label-class="width-5" checked="ctrl.panel.yaxis.show" on-change="ctrl.render()"></gf-form-switch>
+
+			<div ng-if="ctrl.panel.yaxis.show">
+				<div class="gf-form">
+					<label class="gf-form-label width-5">Unit</label>
+					<div class="gf-form-dropdown-typeahead max-width-15" ng-model="ctrl.panel.format" dropdown-typeahead2="ctrl.unitFormats" dropdown-typeahead-on-select="ctrl.setUnitFormat($subItem)"></div>
+				</div>
+
+				<div class="gf-form">
+					<label class="gf-form-label width-5">Label</label>
+					<input type="text" class="gf-form-input max-width-20" ng-model="ctrl.panel.yaxis.label" ng-change="ctrl.render()" ng-model-onblur>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section gf-form-group">
+		<h5 class="section-heading">X-Axis</h5>
+		<gf-form-switch class="gf-form" label="Show" label-class="width-5" checked="ctrl.panel.xaxis.show" on-change="ctrl.render()"></gf-form-switch>
+	</div>
+
+  </div>
+</div>

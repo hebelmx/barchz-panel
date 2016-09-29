@@ -1,0 +1,45 @@
+{
+  "type": "panel",
+  "name": "Bar Chart Horizontal Stacked Pannel",
+  "id": "grafana-barchz-panel",
+  "info": {
+    "description": "Bar chart Horizontal Stacked panel for grafana",
+    "author": {
+      "name": "Abel Briones",
+      "email": "hebelmx@gmail.com",
+      "url": "http://www.exxerpro.com"
+    },
+    "keywords": [
+      "barchz",
+      "panel",
+      "horizontal",
+      "stacked"
+    ],
+    "links": [
+      {
+        "name": "Project site",
+        "url": "https://github.com/hebelmx/barchz-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/hebelmx/barchz-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "Barchz",
+        "path": "src/img/barchz-panel.png"
+      },
+      {
+        "name": "Barchz Options",
+        "path": "src/img/barchz-options.png"
+      }
+    ],
+    "version": "0.0.1",
+    "updated": "2016-09-28"
+  },
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": []
+  }
+}
