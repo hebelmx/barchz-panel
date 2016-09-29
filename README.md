@@ -1,5 +1,7 @@
-The barchz-panel is based on the job of mathias merner creator of the barchart-pane original grafana [piechart-panel](https://github.com/grafana/piechart-panel)
 this is a stacked horizontal bar chart
+
+The barchz-panel is based on the job of  Mathias Methner, mathiasmethner@gmail.com creator of the barchart-panel https://github.com/mmethner/barchart-panel
+
 
 
 ![Barchz Screenshot](/src/img/barchz-panel.png?raw=true)
@@ -19,7 +21,7 @@ sudo service grafana-server restart
 
 ## 0.0.1
 
-First working version with some options for customizing the legend.
+First working version.
 
 # Testing
 
